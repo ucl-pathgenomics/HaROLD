@@ -1,3 +1,5 @@
 sample1-1longitudinal.sorted.dedup.fixed.bam.strandcount.csv
 sample2-1longitudinal.sorted.dedup.fixed.bam.strandcount.csv
-
+sample3-1longitudinal.sorted.dedup.fixed.bam.strandcount.csv
+sample4-1longitudinal.sorted.dedup.fixed.bam.strandcount.csv
+sample5-1longitudinal.sorted.dedup.fixed.bam.strandcount.csv
