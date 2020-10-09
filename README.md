@@ -1,7 +1,7 @@
 # HaROLD - HAplotype Reconstruction Of Longitudinal Deep sequencing data
 
 ## Overview
-HaROLD reconstructs haplotypes based on identifying co-varying variant frequencies using a probabilistic framework. For more details, please refer to our preprint on bioRxiv [https://www.biorxiv.org/content/10.1101/444877v1](https://www.biorxiv.org/content/10.1101/444877v1).
+HaROLD reconstructs haplotypes based on identifying co-varying variant frequencies using a probabilistic framework. For more details, please refer to [our preprint](https://www.biorxiv.org/content/10.1101/444877v2) on bioRxiv.
 
 ## Usage
 
