@@ -15,7 +15,7 @@ Convert the BAM files using [Samtools](http://www.htslib.org).
 samtools view -h -G69 to.convert.bam | samtools view -h -G133 > file.bam
 ```
 
-For every sample, generate a strandcount.csv from the BAM file.
+For every sample, generate a strandcount.csv from the BAM file (some examples of this step can be found in the "example" folder)
 
 ```sh
 java -cp /your-path-to/HAROLD/lib/htsjdk-unspecified-SNAPSHOT.jar: \
@@ -28,6 +28,7 @@ java -cp /your-path-to/HAROLD/lib/htsjdk-unspecified-SNAPSHOT.jar: \
 
 #### Step 1 - Running HaROLD
 HaROLD requires as input file only a list of strandcount.csv files. Longitudinal data are listed together, but separate samples from different runs need to be submitted separately. 
+Data and examples used in the simulation in the paper can be found in the "simulation" folder.
 For example, if you have 4 longitudinal samples from the same patient, your sample.txt will look like:
 
 ```sh
@@ -173,7 +174,7 @@ Usage: richards-haplotype-model [-hIV] [--expand] [--printIntermediate]
   -V, --version
 ```
 
-Here, we show an example for sample2 for the first Norovirus longitudinal set in the simulation (referred in the paper as "2 haplotypes, low similarity, 3 time points set"). Run this for every sample.
+Here, we show an example for sample2 for the first Norovirus longitudinal set in the simulation (referred in the paper as "2 haplotypes, low similarity, 5 time points set"). Run this for every sample.
 
 ```sh
 java -cp /your-path-to/lib/htsjdk-unspecified-SNAPSHOT.jar: \
