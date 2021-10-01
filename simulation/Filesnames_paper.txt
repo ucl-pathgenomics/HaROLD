@@ -1,0 +1,15 @@
+Simulation data as presented in the paper:
+
+For Norovirus: 
+
+1-longitudinal: 2 haplotypes, low similarity, 5 time points set
+2-longitudinal: 2 haplotypes, high similarity, 5 time points set
+3-longitudinal: 3 haplotypes, 5 time points set
+4-longitudinal: 4 haplotypes, 5 time points set
+
+For HCMV:
+
+1-longitudinal: 2 haplotypes, low similarity, 3 time points set
+2-longitudinal: 2 haplotypes, high similarity, 3 time points set
+3-longitudinal: 3 haplotypes, low similarity, 3 time points set
+4-longitudinal: 3 haplotypes, high similarity, 3 time points set
