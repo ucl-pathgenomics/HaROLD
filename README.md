@@ -18,10 +18,10 @@ samtools view -h -G69 to.convert.bam | samtools view -h -G133 > file.bam
 For every sample, generate a strandcount.csv from the BAM file (some examples of this step can be found in the "example" folder)
 
 ```sh
-java -cp /your-path-to/HAROLD/lib/htsjdk-unspecified-SNAPSHOT.jar: \
-/Your-path-to/HaROLD/lib/picocli-4.1.2.jar: \
-/Your-path-to/HaROLD/lib/pal-1.5.1.jar: \
-/Your-path-to/HaROLD/lib/cache2k-all-1.0.2.Final.jar: \
+java -cp /your-path-to/HaROLD/lib/htsjdk-unspecified-SNAPSHOT.jar:\
+/Your-path-to/HaROLD/lib/picocli-4.1.2.jar:\
+/Your-path-to/HaROLD/lib/pal-1.5.1.jar:\
+/Your-path-to/HaROLD/lib/cache2k-all-1.0.2.Final.jar:\
 /Your-path-to/HaROLD/lib/commons-math3-3.6.1.jar: \
 /Your-path-to/HaROLD/jar/MakeReadCount.jar makereadcount.MakeReadCount file.bam
 ```
@@ -117,7 +117,7 @@ The required input files are:
 Basic usage: 
 
 ```sh
-java -cp /your-path-to/lib/htsjdk-unspecified-SNAPSHOT.jar: \
+java -cp /your-path-to/HaROLD/lib/htsjdk-unspecified-SNAPSHOT.jar: \
 /your-path-to/HaROLD/lib/picocli-4.1.2.jar: \
 /your-path-to/HaROLD/lib/pal-1.5.1.jar: \
 /your-path-to/HaROLD/lib/commons-math3-3.6.1.jar: \
