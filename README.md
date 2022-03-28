@@ -6,6 +6,8 @@
 HaROLD reconstructs haplotypes based on identifying co-varying variant frequencies using a probabilistic framework. For more details, please refer to [our preprint](https://www.biorxiv.org/content/10.1101/444877v2) on bioRxiv.
 
 ## Usage
+  
+HaROLD requires Java 8 (or newer). Download pre-built binaries from releases.
 
 #### Prepare input files
 This step might not be necessary depending on software used for alignment. Tested with bam files produced by Bbmap and bwa. 
@@ -41,7 +43,7 @@ sampleA_timepoint4.strandcount.csv
 HaROLD can be run as: 
 
 ```sh
-java -jar /your-path-to/HaROLD/jar/Cluster_RG/dist/Cluster_RG.jar --help
+java -jar /your-path-to/HaROLD/jar/Cluster_RG/dist/HaROLD-2.0.jar --help
 ```
 
 Available parameters for HaROLD can be found in : 
@@ -86,7 +88,7 @@ For example, the following command was used in our simulation with norovirus dat
 
 
 ```sh
-java -jar /your-path-to/HaROLD/jar/Cluster_RG/dist/Cluster_RG.jar \
+java -jar /your-path-to/HaROLD/jar/Cluster_RG/dist/HaROLD-2.0.jar \
 --count-file sample.txt --haplotypes 4 --alpha-frac 0.5 --gamma-cache 10000 \
 -H -L --threads 4 -p /your-path-to-results/Step1_results
 ```
