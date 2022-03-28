@@ -7,7 +7,7 @@ HaROLD reconstructs haplotypes based on identifying co-varying variant frequenci
 
 ## Usage
   
-HaROLD requires Java 8 (or newer). Download pre-built binaries from releases.
+HaROLD requires Java 8 (or newer). Download pre-built binaries from [releases](https://github.com/ucl-pathgenomics/HaROLD/releases/tag/v2.0.0).
 
 #### Prepare input files
 This step might not be necessary depending on software used for alignment. Tested with bam files produced by Bbmap and bwa. 
