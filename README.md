@@ -1,7 +1,6 @@
 # HaROLD - HAplotype Reconstruction Of Longitudinal Deep sequencing data
 <p align="center">
-
-<img src="HaROLD_logo.png" width="350"
+<img src="HaROLD_logo.png" width="350" />
 
 
 ## Overview
