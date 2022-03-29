@@ -44,7 +44,8 @@ View program options:
 
 ```sh
 java -jar /your-path-to-HaROLD/jar/Cluster_RG/dist/HaROLD-2.0.jar --help
-
+```
+```sh
 Usage: 
 
 richards-haplotype-model [-AhHLNvV] [--alpha-frac=<alpha_frac>]
@@ -85,7 +86,7 @@ For example, the following command was used in our simulation with norovirus dat
 
 
 ```sh
-java -jar /your-path-to-HaROLD/jar/Cluster_RG/dist/Cluster_RG.jar \
+java -jar /your-path-to-HaROLD/jar/Cluster_RG/dist/HaROLD-2.0.jar \
 --count-file sample.txt --haplotypes 4 --alpha-frac 0.5 --gamma-cache 10000 \
 -H -L --threads 4 -p /your-path-to-results/Step1_results
 ```
@@ -123,8 +124,8 @@ java -cp /your-path-to-HaROLD/lib/htsjdk-unspecified-SNAPSHOT.jar: \
 /your-path-to-HaROLD/lib/cache2k-all-1.0.2.Final.jar: \
 /your-path-to-HaROLD/lib/flanagan.jar: \
 /your-path-to-HaROLD/jar/RefineHaplotypes.jar refineHaplotypes.RefineHaplotypes -h
-
-
+```
+```sh
 Usage: richards-haplotype-model [-hIV] [--expand] [--printIntermediate]
                                 [--printReference]
                                 --alignment=<hapAlignmentFile>
