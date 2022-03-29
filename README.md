@@ -193,4 +193,5 @@ This step produces two output files for each sample:
 
 
 ## Getting help
-If you have any questions, please feel free to contact [Juanita Pang](mailto:juanita.pang.16@ucl.ac.uk),[Cristina Venturini](mailto:c.venturini@ucl.ac.uk)  or [Richard Goldstein](mailto:r.goldstein@ucl.ac.uk).
+
+If you have any questions, please feel free to contact [Juanita Pang](mailto:juanita.pang.16@ucl.ac.uk), [Cristina Venturini](mailto:c.venturini@ucl.ac.uk)  or [Richard Goldstein](mailto:r.goldstein@ucl.ac.uk).
