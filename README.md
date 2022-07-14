@@ -25,7 +25,7 @@ java -cp /your-path-to-HaROLD/lib/htsjdk-unspecified-SNAPSHOT.jar:\
 /Your-path-to-HaROLD/lib/picocli-4.1.2.jar:\
 /Your-path-to-HaROLD/lib/pal-1.5.1.jar:\
 /Your-path-to-HaROLD/lib/cache2k-all-1.0.2.Final.jar:\
-/Your-path-to-HaROLD/lib/commons-math3-3.6.1.jar: \
+/Your-path-to-HaROLD/lib/commons-math3-3.6.1.jar:\
 /Your-path-to-HaROLD/jar/MakeReadCount.jar makereadcount.MakeReadCount file.bam
 ```
 
