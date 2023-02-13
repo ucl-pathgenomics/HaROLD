@@ -4,7 +4,7 @@
 
 
 ## Overview
-HaROLD reconstructs haplotypes based on identifying co-varying variant frequencies using a probabilistic framework. For more details, please refer to [our paper] [our preprint](https://academic.oup.com/ve/article/8/2/veac093/675) in Virus Evolution.
+HaROLD reconstructs haplotypes based on identifying co-varying variant frequencies using a probabilistic framework. For more details, please refer to [our paper](https://academic.oup.com/ve/article/8/2/veac093/675) in Virus Evolution.
 
 ## Usage
 
